@@ -1,6 +1,6 @@
 # BtkHackathon
  
-İnstallation 
+Installation 
 
 - npm i 
 
