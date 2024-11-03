@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function InputPage() {
     const [nameText, setNameText] = useState("");
-    const genAI = new GoogleGenerativeAI("AIzaSyBACS-RLsDCla6yMCtWanm2u1B3hJ1I1_M");
+    const genAI = new GoogleGenerativeAI("Your Api Key");
 
     async function fileToGenerativePart(file) {
         const base64EncodedDataPromise = new Promise((resolve) => {

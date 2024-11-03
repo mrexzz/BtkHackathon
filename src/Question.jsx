@@ -6,7 +6,7 @@ export default function Question() {
     const [apiData, setApiData] = useState([]);
     const [Testdata, setTestData] = useState([]);
     const [load, setLoad] = useState(false);
-    const genAI = new GoogleGenerativeAI("AIzaSyBACS-RLsDCla6yMCtWanm2u1B3hJ1I1_M");
+    const genAI = new GoogleGenerativeAI("Your Api Key");
 
     // Farklı prompt1 çıktıları için dizi oluştur
     const prompts = [
