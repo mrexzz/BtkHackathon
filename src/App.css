@@ -1,0 +1,369 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  min-height: 90vh;
+  overflow: hidden;
+}
+.imginput{
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+  margin: 20%;
+}
+.bars{
+  margin-top:40%;
+  height: 10%;
+}
+.baslik{
+  margin: 5%;
+}
+p{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30vh;
+}
+
+.text-center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+}
+
+/* Diğer stillemeleri ekleyebilirsiniz */
+.try,
+.answer-container {
+  width: 100%; /* İçeriklerin genişliğini tam sayfa genişliği yapar */
+  max-width: 600px; /* İçeriklerin maksimum genişliği belirlenebilir */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Diğer stillemeleri ekleyebilirsiniz */
+
+/* Gerekirse, butonları düzenlemek için stil ekleyebilirsiniz */
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px; /* Örnek bir maksimum genişlik */
+  margin-top: 2px; /* İstenirse boşluk ekleyebilirsiniz */
+}
+
+/* Diğer stillemeleri ekleyebilirsiniz */
+#footer {
+  text-decoration: none;
+  background-color: #333; /* Footer arka plan rengi */
+  color: #fff; /* Footer metin rengi */
+  padding: 1% 0; /* Footer içerik iç kenar boşluğu */
+  text-align: center; /* Metinleri ortala */
+  bottom: 0;
+  font-size:1.2vw;
+}
+.nav-logo{
+  width: 60px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  height: auto; /* Sayfanın tam yüksekliği */
+}
+#navbar{
+  margin-left: 5vh;
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.about-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image:hover {
+  transform: scale(1.1);
+}
+.project-img{
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.8;
+}
+.project-img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.img-fluid {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10%;
+  margin-top: 20px;
+}
+.margintry{
+  margin-right: 100px;
+}
+.homeh1{
+  font-size: 8vh;
+}
+.h1-input{
+  margin : 5%;
+  justify-content: center;
+  text-align: center;
+}
+.button1 {
+  background-color: white;
+  color: black;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+.tag{
+  text-decoration: none !important;
+}
+.notfound{
+  margin: 25%;
+}
+.button {
+  background-color: transparent; 
+  border: 2px solid black;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.homep1{
+  font-size: 3vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5vh;
+}
+.corner {
+  border-radius: 15px 50px 30px;
+  background: wheat;
+  padding: 20px;
+  object-fit: cover;
+  width: 100;
+}
+body {
+  background: #e3f2fd
+}
+
+svg {
+  font-family: 'Russo One', sans-serif;
+  position: absolute; 
+  width: 100%; height: 100%;
+}
+svg text {
+  text-transform: uppercase;
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 140px;
+}
+@keyframes stroke {
+  0%   {
+    fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+  }
+  70%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); }
+  80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+  100% {
+    fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+  }
+}
+.arc {
+  width: 100%;
+  height:500px;
+  background: #000000;
+  border-radius: 50% / 30px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.btn-alt:hover{
+  background-color: black;
+  color: white;
+}
+.CardStyle{
+  margin: 20%;
+  width: 10rem;
+  border: 10px;
+  border-color: #000000;
+  border-radius: 20%;
+  background-image: url("https://fastly.picsum.photos/id/766/200/200.jpg?hmac=i8NIvzl3XXKwMZzUUjQWAbKOWskcKnOApccdqQpiEzQ");
+}
+.imgcard{
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  width: 100%!important;
+  height: 120vh;
+  margin-top: 10%;
+  margin-bottom: 10% ;
+}
+.input{
+  width: 100%;
+}
+.foto{
+  border-color: #000000;
+  border: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.login{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.transparent-container {
+  background-color: rgba(255, 255, 255, 0.5); /* Transparan beyaz renk */
+  padding: 20px;
+  margin-bottom: 20%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+  width: 100%;
+  max-width: 75%; /* Maksimum genişlik */
+  margin: 0 auto; /* Merkezde yerleştirme */
+}
+/* Eğer içeriklerinizi sağa veya sola hizalamak istiyorsanız gerekli CSS kodlarını buraya ekleyebilirsiniz */
+/* styles.css */
+.input-container {
+  text-align: center;
+}
+
+.input-container input,
+.input-container button {
+  transition: all 0.3s ease;
+}
+.responsive-container {
+  background-color: rgba(44, 12, 12, 0.5); /* Transparan beyaz renk */
+  padding: 20px; /* İç boşluk */
+  border-radius: 10px; /* Kenar yuvarlaklığı */
+  box-shadow: 0 0 10px rgba(161, 16, 16, 0.1); /* Gölgelendirme */
+  width: 90%; /* Genişlik yüzde olarak */
+  max-width: 1000px; /* Maksimum genişlik */
+  margin: 0 auto; /* Merkezde yerleştirme */
+}
+.input-container input:focus,
+.input-container button:hover {
+  transform: translateY(-5px);
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  background-image: url('https://via.placeholder.com/150'); /* Profil resmi */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Yuvarlak profil resmi */
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Profil resmi için gölge efekti */
+  transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1); /* Hover'da profil resminin büyümesi */
+}
+
+.profile-info {
+  max-width: 400px;
+}
+
+.profile-info h1 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+/* Navbar.css */
+.navbar-toggler.active .navbar-toggler-icon::before {
+  content: '\f00d'; /* "close" icon */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction:column;
+  
+  }
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+}
+
+/* Stil dosyası */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.slide-in {
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Sayfa kaplayıcı */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+/* İçerik alanı */
+.content {
+  flex: 1; /* İçerik alanı, mevcut alanı kaplar */
+}
+
+/* Footer */
+.footer2 {
+  background-color: #f1f1f1; /* İsteğe bağlı arka plan rengi */
+  text-align: center;
+  padding: 10px 0; /* Dikey boşluk */
+}
