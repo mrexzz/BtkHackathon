@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import Animation from "./Animation";
-import { Player } from 'video-react';
 import 'video-react/dist/video-react.css';
 
 
@@ -24,7 +23,7 @@ export default function Home() {
             <div className="col-md-6 ">
               <img
                 className="img-fluid about-image"
-                src="../src/assets/projeekle.png"
+                src="https://i.ibb.co/8m4jJyB/projeekle.png"
                 alt="Hakkında Resim"
               />
             </div>
@@ -42,16 +41,14 @@ export default function Home() {
         <div className="container" style={{ marginBottom: "10%" }}><Animation></Animation>
         </div>
         <section id="player">
-        <Player muted autoPlay loop>
-          <source src="../src/assets/tanitim.mp4" />
-        </Player></section></div>
+        <iframe src="https://drive.google.com/file/d/1lBB5Q6nlwseSe7reX2Ioeh3P6-lPiLv0/preview" width="100%" height="1080" allow="autoplay"></iframe></section></div>
       <div className='overflow-hidden'>
         <div className="container mt-7 mb-5" >
           <div className="row">
             <div className="col-md-3">
               <img
                 className="img-fluid about-image"
-                src="../src/assets/blockchain-2.png"
+                src="https://i.ibb.co/Kz4qM12/blockchain-2.png"
                 alt="Hakkında Resim"
               />
             </div>
@@ -66,7 +63,7 @@ export default function Home() {
             <div className="col-md-3 ">
               <img
                 className="img-fluid about-image"
-                src="../src/assets/education.png"
+                src="https://i.ibb.co/6wTJyW3/education.png"
                 alt="Hakkında Resim"
               />
             </div>
